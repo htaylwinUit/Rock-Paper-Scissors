@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock, Paper, Scissors!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div>
+            <h1 class="heading">Rock, Paper, Scissors!</h1>
+        </div>
+        <div class="game_container">
+            <div class="container">
+                <div class="info">
+                    <div><h1 class="participant">Player</h1></div>
+                    <div><p id="player_score"></p></div>
+                </div>
+                <div class="cards">
+                    <div class="choice" id="rock">
+                        <p>Rock</p>
+                        <img src="rock_image.png" alt="rock_image" class="image">
+                    </div>
+                    <div class="choice" id="paper">
+                        <p>Paper</p>
+                        <img src="paper_image.png" alt="paper_image" class="image">
+                    </div>
+                    <div class="choice" id="scissors">
+                        <p>Scissors</p>
+                        <img src="scissors_image.jpeg" alt="scissors" class="image">
+                    </div>
+                </div>
+            </div>
+            <div class="center_txt">
+                <h1>Vs</h1>
+            </div>
+            <div class="container">
+                <div class="info">
+                    <div><h1 class="participant">Computer</h1></div>
+                    <div><p id="computer_score"></p></div>
+                </div>
+                <div class="cards">
+                    <div class="choice" id="cm_rock">
+                        <p>Rock</p>
+                        <img src="rock_image.png" alt="rock_image" class="image">
+                    </div>
+                    <div class="choice" id="cm_paper">
+                        <p>Paper</p>
+                        <img src="paper_image.png" alt="paper_image" class="image">
+                    </div>
+                    <div class="choice" id="cm_scissors">
+                        <p>Scissors</p>
+                        <img src="scissors_image.jpeg" alt="scissors" class="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+                <p id="messageBox"></p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.heading{
+    text-align: center;
+    font-size: 48px;
+}
+
+.game_container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.choice:active{
+    color:brown;
+}
+img{
+    width: 100px;
+    height: 70px;
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center; 
+    flex: 1;
+
+    background-color: dimgray;
+    border-radius: 5px;
+    width: 120px;
+    height: 150px;
+    margin: 15px;
+
+    box-shadow: 4px 5px 0px rgb(15, 15, 15);
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+.center_txt{
+    font-size: large;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.result{
+    height: 80px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 80px 250px ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#messageBox{
+    font-size: 50px bold;
+    color:black;
+}
